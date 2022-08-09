@@ -1,0 +1,14 @@
+.bookCoverContainer{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+    text-align: center;
+    img{
+        width: 100%;
+        display: block;
+        object-fit: cover;
+    }
+}
